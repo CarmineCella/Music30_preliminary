@@ -45,12 +45,12 @@
 \prereq{Prereq: None}
 \classdays{}
 \classhours{}
-\classloc{}
+\classloc{CNMAT (McEnerney Hall)}
 
 %%%%%%%%%%%%%%% LAB INFO
 \labdays{}
 \labhours{}
-\labloc{Lab Space}
+\labloc{CNMAT (McEnerney Hall) - Laptop and headphones required}
 
 %%%%%%%%%%%%%%% TA INFO
 \taAname{Alice}
@@ -71,17 +71,17 @@
 %to add more questions or remove this section, go to the .cls file and start with lines comment
 %lines 226-250. Also comment out this section as well as line 152(ish), the command \makeSide
 
-\qOne{Do we dissect real fish in this course?}
-\aOne{Yes, we do actually dissect fish. If you know of any issues that may cause you difficulties during dissections, please notify your TA ASAP.}
+\qOne{Do I need to know machine learning?}
+\aOne{No. The essential tools of machine learning will be introduced in the course. However, some familiarity with linear algebra is recommended.}
 
-\qTwo{What is a fish?}
-\aTwo{No clue. When someone says `fish', we have a picture of a general fish of a general shape in our minds, but the truth is that `fish' doesn't have scientific meaning. Here's a funny video about that: \href{https://youtu.be/uhwcEvMJz1Y}{Youtube (hyperlink)}. }
+\qTwo{Do I need to know Python programming?}
+\aTwo{While it is not strictly necessary, it is recommended to know at least the basic structures of the language. Several labs will use Python programs and you will be asked to execute them. }
 
-\qThree{What is your favorite fish?}
-\aThree{A lumpsucker. They are incredibly, adorably weird-looking.}
+\qThree{Do I need to know Max programming?}
+\aThree{No. All Max-based labs will use ready-to-use patches with a graphical interface.}
 
-\qFour{What's the difference between plural `fish' and `fishes'?}
-\aFour{`Fish' is the plural form when talking about two or more fish of the same species. `Fishes' is the plural when talking about two or more different species.}
+\qFour{How much musical knowledge is required?}
+\aFour{Nothing more than an intuitive understanding of concepts such as melody or timbre. The motivation of the course, however, is to produce tools to create and transform sound so you should be at least interested in this.}
 
 %----------------------------------------------------------------------------------------
 
@@ -98,7 +98,7 @@
 %----------------------------------------------------------------------------------------
 \section{Overview}
 
-During the first half of this course, we will work up the fish phylogeny, examining both extinct and extant lineages. In the second half, we'll dive deep into the specific systems fish have developed that allow them to dominate the aquatic world. We'll spend the last few weeks looking at their behavior, ecology, and some of the conservation efforts currently underway to help protect our fish populations. Throughout the semester, labs will help students connect what they have read and heard with what they can see and feel, reinforcing the material.
+Computational creativity for music and the arts (MUS30) is..
 
 
 %----------------------------------------------------------------------------------------
@@ -110,9 +110,7 @@ During the first half of this course, we will work up the fish phylogeny, examin
 
 %use \begin{outline} or \begin{outline}[enumerate] to create a list with subitems. 
 \begin{itemize}
-\item Become familiar with the evolutionary history and taxonomic diversity of fishes
-\item Improve your understanding of the basic physiological and behavioral adaptations of fishes
-\item Gain skills regarding the dissection, collection, and preservation of fish specimens through laboratory work
+\item Understand...
 \item Learn to critically review a paper and summarize it, as well as review and provide helpful criticism to your peers' work
 
 \end{itemize}
@@ -123,14 +121,18 @@ During the first half of this course, we will work up the fish phylogeny, examin
 \vspace{0.5cm} %I make liberal use of the \vspace{} command to partition and place sections just how I want them. Alter as you see fit. 
 \section{Material}
 
-{\color{myCOLOR} Required Texts}\\
-Helfman, G.S., Collette, B.B., Facey, D.E., \& Bowen, B.W. \textit{The Diversity of Fishes: Biology, Evolution, and Ecology}. 2nd Edition. Wiley-Blackwell. 2009. ("DOF") \\
+{\color{myCOLOR} Required Text}\\
+Cella, C. E. \textit{Creative computing for music and sound}. MIT Press, in preparation. ("CEL") \\
 
-{\color{myCOLOR} Recommended Text}\\
-Paxton, J.R. \& Eschmeyer, W.N. \textit{Encyclopedia of Fishes}. 2nd Edition. Harcourt Brace \& Co. 1998. \\
+{\color{myCOLOR} Recommended Texts}\\
+D. Benson, \textit{Music: a mathematical offering}, freely available on author's web page.  ("BEN")\\
+A. Burkov, \textit{The Hundred-page machine learning book}, freely available on author’s web page, 2019. ("BUR")\\
+A. G\'eron, \textit{Hands-on machine learning with Scikit-Learn \& TensorFlow}, O'Reilly, 2017.  ("GER")\\
 
 {\color{myCOLOR} Other}\\
-Any required journal articles and book chapters will be provided on Canvas. 
+Music 30 will use Python/Anaconda (\url{https://www.anaconda.com}, link to external site) and Cycling’74 Max (\url{http://cycling74.com/}, link to external site) programming environments extensively during the labs. The open-ource audio editor Audacity (\url{https://www.audacityteam.org}, link to external site) will be also used during classes. Students must have access to a laptop computer with these software packages installed and must have headphones. Students may choose to purchase Max, or alternatively there are student authorization options.
+
+Any required journal/conference articles and all the source code will be provided on \emph{bCourses}. 
 
 %----------------------------------------------------------------------------------------
 %	 GRADING SCHEME
@@ -141,9 +143,9 @@ Any required journal articles and book chapters will be provided on Canvas.
 %below is the \twentyshort environment - a list with only two inputs. However, there is a \twenty environment, which creates a list with four inputs. You can find/alter details of that table in the .cls file c. lines 320. 
 \begin{twentyshort}
 	%\twentyitemshort{X\%}{Attendance/Participation}
-	\twentyitemshort{15\%}{Lab Worksheets}
-    \twentyitemshort{40\%}{Midterm Exams (20\% each)}
-    \twentyitemshort{45\%}{Final Exam}
+	\twentyitemshort{20\%}{Assignments}
+    \twentyitemshort{30\%}{Midterm Exam}
+    \twentyitemshort{50\%}{Final Exam}
 \end{twentyshort}
 
 Grades will follow the standard scale: A = 89.5-100; B = 79.5-89.4; C = 69.5-79.4; D = 60-69.4; F  $<$60. Curving is at the discretion of the professor. 
@@ -193,131 +195,108 @@ For more information about how the University responds to harassment and discrim
 \section{Class Schedule}
 
 \begin{center}
-\begin{tabularx}{\textwidth}{p{2cm}p{8cm}p{9.5cm}} %change the width of the comments by changing these cm measurements. Add/substract columns by adding/deleting p{} sections. 
+\begin{tabularx}{\textwidth}{p{2cm}p{8cm} @{\hskip 0.5cm} p{9.5cm}} %change the width of the comments by changing these cm measurements. Add/substract columns by adding/deleting p{} sections. 
 \arrayrulecolor{myCOLOR}\hline
+\hline 
+\hline 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% MODULE 1
-\multicolumn{3}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 1: Representations }}} \\
+\multicolumn{3}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 1: Foundations }}} \\
 \hline
-% Week & Topic & Readings \\ \hline 
+  \# & Topic & Readings \\ \hline 
 %%Alternatively, instead of Week #, you can do Class date for meeting
-Week 1 & History of the Earth - Fish Remix & Friedman, M. \& Salland, L.C. (2012). Five hundred million years of extinction and recovery: A Phanerozoic survey of large-scale diversity patterns in fishes. \textit{Palaeontology}, 55(4):707-742 \\
+Week 1 &
+Computational creativity is not \ldots creative: the four \emph{P}s of creativity & F. Carnovalini and A. Rod\`a,Computational Creativity and Music Generation Systems: An Introduction to the State of the Art. Front. Artif. Intell. 3:14, 2020  \\
 
-& Stem \& Extant Agnathans \& Gnathostomes & DOF Ch. 11, pp. 169-179; Ch. 13, pp. 231-240  \\
-& & Brazeau, M.D. \& Friedman, M. (2015). The origin and early phylogenetic history of jawed vertebrates. \textit{Nature}, 520(7548): 490-497.\\
+& Creative artefacts vs assisted creation: dualities in modelling creativity &  R. L. DE M\`antaras, Artificial Intelligence and the Arts: Toward Computational Creativity, in The Next Step: Exponential Life, 2017\\
 \arrayrulecolor{maingray}\hline
-Week 2 & Chondrichthyans I: Overview \& Sharks & DOF Ch. 11, pp. 197-200; Ch. 12, pp. 205-227\\
 
-& Chondrichthyans II: Batoids \& Chimaeras & DOF Chapter 12, pp. 227-229 \\
+Week 2 & Three introductory views on sound: physical, perceptual and cultural & [BEN, ch. 1.1-1.7]\\
+
+& Introduction to musical timbre and digital signals & [BEN, ch. 7.1-7.6, appendix M]\\
 \arrayrulecolor{maingray}\hline
-Week 3 & Stem \& Extant Sarcopterygians & DOF Ch. 11, pp. 179-185; Ch. 13, pp. 242-248 \\
 
-& Actinopts I: Overview & DOF Ch. 14 \& Ch. 15 \\
+Week 3 & The five pillars of creative computing (I): probabilities &  \\
+
+& \emph{Lab (Python)}: Markov models for text and music generation & \\
 \arrayrulecolor{maingray}\hline
-Week 4 & Actinopts II: Basal Actinopts \& Teleostei & DOF Ch. 11, pp. 185-197; Ch. 13, pp. 248-259, Ch. 14, pp. 261-266 \\
 
-& Actinopts III: Otocephalan Fishes & DOF Ch. 14, pp. 267-275 \\
+Week 4 & The five pillars of creative computing (II): projective spaces & C. E. Cella, A geometric interpretations of signals, 2015, available on www.carminecella.com\\
+
+& \emph{Lab (Python)}: transforming sounds and images with convolutional maps & C. E. Cella, On room impulse response measurements with sine sweeps, 2017, available on www.carminecella.com \\
+& & \\ 
+\arrayrulecolor{maingray}\hline
+
+Week 5 & The five pillars of creative computing (III): unsupervised and supervised statistical learning & [BUR, ch. 1]\\
+
+& & C. E. Cella, Logistic regression and artificial neural networks, 2015, available on www.carminecella.com \\
+
+& \emph{Lab (Python)}: classification of musical timbres & [BUR, ch. 2.7] \\
+
+& & V. Lonstalen, C. E. Cella, Deep convolutional networks on the pitch spiral for musical instrument recognition, ISMIR 2016, New York, USA\\
 
 \arrayrulecolor{maingray}\hline
-Week 5 & Actinopts IV: Freshwater Fishes & DOF Ch. 16, pp. 339-354; Ch. 18, pp. 410-414, 417-421 \\
 
-& Actinopts V: Deep Sea Fishes & DOF Ch. 18, pp. 393-401 \\
-& & Davis, M.P., Sparks, J.S., \& Smith, W. L. (2016). Repeated and widespread evolution of bioluminescence in marine fishes. \textit{PLOS One}.\\
-\arrayrulecolor{maingray}\hline
-Week 6 & Actinopts VI: Coral Reef Fishes & Bellwood, D.R. \& Wainwright, P.C. (2002). The History and Biogeography of Fishes on Coral Reefs. \textit{Coral Reef Fishes: Dynamics and Diversity in a Complex Ecosystem}, 5-32. \\
+Week 6 & The five pillars of creative computing (IV): logical rules and generative grammars&  \\
 
- & Actinopts VII: Pelagic Fishes & DOF Ch. 18, pp. 401-405 \\
+ &  \emph{Lab (Python)}: L-systems for natural patterns and melodic generation & \\
  \arrayrulecolor{maingray}\hline
- Week 7 & Review & Module 1 \\
- &EXAM &  MIDTERM 1 \\
  
+ Week 7 & The five pillars of creative computing (V): optimisation &  \\
+ 
+ & \emph{Lab (Max)}: computer-assisted orchestration with Orchidea &  \\
+ \arrayrulecolor{maingray}\hline
+
+ Week 8 & Review & Module 1 \\
+ &EXAM &  MIDTERM \\
+& & \\ 
  \arrayrulecolor{myCOLOR}\hline
-\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 2: What Makes a Fish }}} \\
+\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 2: Transformations }}} \\
 \hline
- Week 8 & Respiration & DOF Ch. 5 \\
- 
- & Cardiovascular Systems & DOF Ch. 4, pp. 45-48 \\
- \arrayrulecolor{maingray}\hline
-Week 9 & Homeostasis & DOF Ch. 4, pp. 52; Ch. 7, pp. 101-105.\\
 
-& Feeding Mechanisms & DOF Ch. 4, pp. 41-42; Ch. 8, pp. 119-126  \\
+Week 9 & Modelling time and timbre in music & H. C. Crayencour, C. E. Cella, Learning, probability and logic: towards a unified approach for content-based Music Information Retrieval, Frontiers in Digital Humanities, April 2019 \\
+
+& \emph{Lab (Max and Python)}: granular synthesis and \emph{AudioGuide} &  \\
 \arrayrulecolor{maingray}\hline
-Week 10 & Sensory Systems & DOF Ch. 6 \\
 
-&  Buoyancy & DOF Ch. 4, pp. 50-52  \& Ch. 5, pp. 68-70 \\
+Week 10 & Modeling musical style (I): projections &  \\
+
+&   \emph{Lab (Max/MSP)}: spectral freeze and cross-synthesis, a prelude to musical style transfer &  \\
 \arrayrulecolor{maingray}\hline
-Week 11 &  Locomotion I - Undulatory Propulsion &  Webb, P.W. (1984). Form and function in fish swimming. \textit{Sci. Amer.}, 251(1): 72-83. \\
-% & & Shadwick, R.E. (2005). How tunas and lamnid sharks swim: An evolutionary convergence. \textit{Amer. Sci.}, 93: 524-531. \\
 
-& Locomotion II - Oscillatory Propulsion & Daniel, T.L. (1984). Unsteady Aspects of Aquatic Locomotion. \textit{Amer. Zoo.}, 24: 121-134.\\
+Week 11 & Modeling musical style (II): probabilities and unsupervised learning together & C. E. Cella, Sound-types: a new framework for symbolic sound analysis and synthesis, ICMC 2011, Huddersfield, United Kingdom  \\
+
+&\emph{Lab (Python)}: sound-types, a further step towards musical style transfer & C. E. Cella and J.J. Burred, Advanced sound hybridizations by means of the theory of sound-types, ICMC 2013, Perth, Australia \\
+
 \arrayrulecolor{maingray}\hline
-Week 12 & Communication \& Reproduction  &  DOF Ch. 22, pp. 477-485 \\
+Week 12 & Modeling musical style (III): supervised learning with deep neural networks &  L. Gabrielli, C. E. Cella, F. Vespertini, D. Droghini, E. Principi and S. Squartini, Deep Learning for Timbre Modification and Transfer: an Evaluation Study, AES 144th, 2018, Milan, Italy \\
+&\emph{ Lab (Python)}: an algorithm for universal musical style transfer &   Noam Mor, Lior Wolf, Adam Polyak, Yaniv Taigman, A universal music translation network, ICLR 2019 \\
 
-& & DOF Ch. 21  \\
-
-&Review & Module 2\\
-\arrayrulecolor{maingray}\hline
-Week 13 & EXAM & MIDTERM 2\\
-&Holiday & Thanksgiving \\
-
+& & \\ 
 \arrayrulecolor{myCOLOR}\hline
-
-\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 3:  }}} \\
+\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 3: Connections  }}} \\
 \hline
-Week 14 & Symbiotic Relationships & DOF Ch. 22, 492-497 \\
-
-& Behavior & DOF Ch. 23 \\
 \arrayrulecolor{maingray}\hline
-Week 15 & Ecology & DOF Ch. 25 \\
 
-& Conservation Efforts & DOF Ch. 26 \\
+Week 13 & Extending the techniques to other arts: image style transfer & \\
+&Evaluation of creative outcomes &  \\
+\arrayrulecolor{maingray}\hline
+
+Week 14 & On the aesthetics of computational creativity &  \\
+
+& Social impact of assisted creation &  \\
+\arrayrulecolor{maingray}\hline
+
+Week 15 & Review & Modules 2 and 3\\
+
+& EXAM & FINAL \\
 \arrayrulecolor{myCOLOR}\hline
-Week 16 & FINAL EXAM & Date \& Time \& Location \\ 
+\hline 
+\hline 
 \hline 
 \end{tabularx}
 \end{center}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                LAB SCHEDULE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\section{Lab Schedule}
-
-\begin{center}
-\begin{tabularx}{\textwidth}{p{2cm}p{6.5cm}p{11cm}}
-\arrayrulecolor{myCOLOR}\hline
-Week 2 & Chondrichthyan Fishes & Students enjoy a two part lab: first, they examine specimens across the Chondrichthyan phylogeny; second, they dissect a small spiny dogfish shark. \\
-\arrayrulecolor{maingray}\hline 
-Week 3 & Harvard Natural History Museum & Students walk through the HMNH and the fossil collection, inspecting various fossil fishes. \\
-\hline 
-Week 4 & Basal Teleosts \& Otocephalan Fishes & Students explore specimens across the basal Teleost phylogeny. \\
-\hline 
-Week 5 & Freshwater \& Deep-Sea Fishes & Students explore specimens from a diverse group of fishes, and try to place each group in the broader phylogeny. \\
-\hline 
-Week 6 & Coral Reef \& Pelagic Fishes & Students explore specimens from a diverse group of fishes, and try to place each group in the broader phylogeny.\\
-\hline 
-Week 7 & No Lab & \\ 
-\hline 
-Week 8 & Internal Systems & Students dissect fish specimens, probing and examing key internal systems. \\
-\hline 
-Week 9 & Jaw Dissections & Students again dissect their fish specimens, taking apart and visualizing the jaws of their fish. \\
-\hline 
-Week 10 & Sensory Systems \& Buoyancy & Students again enjoy a two-part lab: first, examining a broad selection of specimens, comparing and contrasting sensory system apparatuses; and then conducting a series of small experiments to better understand the difficulties associated with buoyancy control in the water. \\
-\hline 
-Week 11 & Locomotion & Students dissect fish specimens, looking at muscular and structure of the body and fins. Students also participate in demonstrations designed to elucidate the concept of lift. \\
-\hline 
-Week 12 & Review Paper Projects & Students bring electronic devices and/or paper printouts of 2-3 paper choices, and will select peer reviewers. TAs will be available to assist students in choosing a paper and begin reviewing it. \\
-\hline 
-Week 13 & No Lab & \\
-\hline 
-Week 14 & No Lab & \\
-\hline 
-Week 15 & Final Exam Review Sessions & Review Paper Project Due \\
-\arrayrulecolor{myCOLOR}\hline
-
-\end{tabularx}
-\end{center}
-
-%----------------------------------------------------------------------------------------
 
 \end{document} 
 

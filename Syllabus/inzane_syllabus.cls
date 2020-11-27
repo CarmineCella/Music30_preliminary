@@ -257,7 +257,7 @@
             \ifthenelse{\equal{\qThree}{}}{}{\textsc{\Large\icon{\faQuestion}} & \Large\qThree\\}
             \ifthenelse{\equal{\aThree}{}}{}{\textsc{\Large\icon{\faExclamation}} & \aThree\\}
             \ifthenelse{\equal{\qFour}{}}{}{\textsc{\Large\icon{\faQuestion}} & \Large\qFour\\}
-            \ifthenelse{\equal{\aFour}{}}{}{\textsc{\Large\icon{\faExclamation}} & \aFour\\}         
+			\ifthenelse{\equal{\aFour}{}}{}{\textsc{\Large\icon{\faExclamation}} & \aFour\\}
 		\end{tabular}
 	\end{textblock}
 }
