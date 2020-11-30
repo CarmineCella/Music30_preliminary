@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  29 NOV 2020 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  29 NOV 2020 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1057,16 +1057,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19961 strings out of 492649
  360437 string characters out of 6129622
- 521262 words of memory out of 5000000
+ 521292 words of memory out of 5000000
  23449 multiletter control sequences out of 15000+600000
  42775 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,65p,890b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (6 pages, 1072443 bytes).
+Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (6 pages, 1072583 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
