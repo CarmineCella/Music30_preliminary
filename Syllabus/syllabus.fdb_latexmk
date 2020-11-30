@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1606713689 "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.tex" "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf" "syllabus" 1606713691
-  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.aux" 1606713691 856 7cf5cbea924d9efb3d4e7c39f3f069fa ""
-  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.tex" 1606713689 21673 1b985c0048f042f9b6d6e09e0015f9ef ""
+["pdflatex"] 1606715071 "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.tex" "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf" "syllabus" 1606715073
+  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.aux" 1606715073 856 7cf5cbea924d9efb3d4e7c39f3f069fa ""
+  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.tex" 1606715071 21676 7a7c1652a56947f260f483dd18397141 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc" 1480098666 2877 6ddb27cbef539831b4076105c848e789 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc" 1480098666 3292 7ca76312f7979eecb918259ad695c8a8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1480098666 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -174,13 +174,13 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "inzane_syllabus.cls" 1606710396 14755 c4e0960ad79224f0597d52ce0466ce1d ""
   "logo.png" 1606443501 957179 4fef33a53511f8ea21743c9639c479bf ""
-  "syllabus.aux" 1606713691 856 7cf5cbea924d9efb3d4e7c39f3f069fa ""
-  "syllabus.out" 1606713690 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "syllabus.tex" 1606713689 21673 1b985c0048f042f9b6d6e09e0015f9ef ""
+  "syllabus.aux" 1606715073 856 7cf5cbea924d9efb3d4e7c39f3f069fa ""
+  "syllabus.out" 1606715072 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "syllabus.tex" 1606715071 21676 7a7c1652a56947f260f483dd18397141 ""
   (generated)
-  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.log"
-  "syllabus.out"
-  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf"
-  "syllabus.aux"
   "syllabus.log"
+  "syllabus.out"
   "syllabus.pdf"
+  "syllabus.aux"
+  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.log"
+  "/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf"
