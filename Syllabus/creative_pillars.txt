@@ -1,0 +1,19 @@
+digraph {
+	node [shape = box]
+	rankdir = LR
+
+	"creative computing" -> "data"
+	"creative computing" -> "rules"
+	"data" -> "statistical learning\n[pillar V]"
+	"statistical learning\n[pillar V]" -> "unsupervised"
+	"statistical learning\n[pillar V]" -> "supervised"
+
+	"data" -> "optimisation\n[pillar III]"
+	"data" -> "probabilities\n[pillar II]"
+	"data" -> "projective spaces\n[pillar I]"
+
+	"rules" -> "logic systems and generative grammars\n[pillar IV]"
+	"rules" -> "projective spaces\n[pillar I]"
+
+
+}
