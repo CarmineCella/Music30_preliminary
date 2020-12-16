@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  15 DEC 2020 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  15 DEC 2020 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1046,11 +1046,6 @@ Underfull \hbox (badness 2189) in paragraph at lines 340--340
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
-[]|\T1/ClearSans-LF/m/it/10 Lab (Max/MSP)\T1/ClearSans-LF/m/sc/10 : spec-tral freeze and cross-
- []
-
-
 Underfull \hbox (badness 1237) in paragraph at lines 340--340
 []|\T1/ClearSans-LF/m/sc/10 The prob-lem of mu-si-cal style trans-fer (II): ap-
  []
@@ -1087,13 +1082,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  19960 strings out of 492649
  360431 string characters out of 6129622
- 506898 words of memory out of 5000000
+ 506848 words of memory out of 5000000
  23449 multiletter control sequences out of 15000+600000
  42775 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,65p,907b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (5 pages, 1071230 bytes).
+Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (5 pages, 1071140 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  71 compressed objects within 1 object stream
