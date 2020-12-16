@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  30 NOV 2020 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.1.29)  15 DEC 2020 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -911,7 +911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--137
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--150
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
@@ -998,12 +998,12 @@ Overfull \hbox (1.13652pt too wide) in paragraph at lines 160--160
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--199
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
@@ -1041,33 +1041,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--199
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 2189) in paragraph at lines 340--340
+[]|\T1/ClearSans-LF/m/sc/10 A. Horner and D. E. Gold-berg, Ge-netic al-go-rithms and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []|\T1/ClearSans-LF/m/it/10 Lab (Max/MSP)\T1/ClearSans-LF/m/sc/10 : spec-tral freeze and cross-
  []
 
 
-Overfull \hbox (11.66557pt too wide) in alignment at lines 331--331
+Underfull \hbox (badness 1237) in paragraph at lines 340--340
+[]|\T1/ClearSans-LF/m/sc/10 The prob-lem of mu-si-cal style trans-fer (II): ap-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 340--340
+[]|\T1/ClearSans-LF/m/sc/10 The prob-lem of mu-si-cal style (III): ap-proaches
+ []
+
+
+Overfull \hbox (11.66557pt too wide) in alignment at lines 340--340
  [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 331
+Underfull \vbox (badness 10000) detected at line 340
  []
 
 [3
 
 ] [4] [5]
-<creative_pillars.png, id=54, 832.10875pt x 384.43625pt>
-File: creative_pillars.png Graphic file (type png)
-<use creative_pillars.png>
-Package pdftex.def Info: creative_pillars.png  used on input line 339.
-(pdftex.def)             Requested size: 416.05336pt x 192.21765pt.
- [6 </Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/creative_pillars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 369.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 369.
  (/Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 369.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 369.
 Package rerunfilecheck Info: File `syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1076,18 +1085,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19966 strings out of 492649
- 360556 string characters out of 6129622
- 523787 words of memory out of 5000000
- 23453 multiletter control sequences out of 15000+600000
+ 19960 strings out of 492649
+ 360431 string characters out of 6129622
+ 506898 words of memory out of 5000000
+ 23449 multiletter control sequences out of 15000+600000
  42775 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,65p,937b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,65p,907b,824s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_nrghxx.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (6 pages, 1106165 bytes).
+Output written on /Users/Carmine/Projects/Research/UCB/Teaching/Music30_preliminary/Syllabus/syllabus.pdf (5 pages, 1071230 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

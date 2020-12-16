@@ -31,7 +31,7 @@
 %To add different lines, you will need to create the new command, e.g. \profPhone, in the .cls file c. line 76, and command to create the line in the side bar in the .cls file c. line 186
 
 %\classname{AI for music\\and the arts} 
-\classname{Computational\\creativity\\for music\\and the arts} 
+\classname{Creative\\computing\\for  music\\ making} 
 \classnum{MUSIC 30} 
 
 %%%%%%%%%%%%%%% PROF INFO
@@ -100,7 +100,7 @@
 
  The advancements in machine learning, especially the recent breakthrough of artificial neural networks, promoted novel art practices in which computers play a fundamental role and fostered research in the field of computational creativity. Alongside other arts, music has also benefited from the development of machine learning and artificial intelligence for tasks ranging from music generation to music analysis and composition.
 
- \textbf{Music 30} (\emph{Computational creativity for music and the arts}) aims at exploring the potential that computers have to support, enhance and challenge music creation. The course is divided into three modules. The first module introduces the essential mathematical and machine learning tools and gives a general introduction to sound. The second module shows real applications of creative computing for music. The third module focuses on the connection between the society and computational creativity at large. The classes are supported by labs based on state-of-the-art computational tools.
+ \textcolor{myCOLOR}{Music 30 (\emph{Creative computing for music making})} aims at exploring the potential that computers have to support and enhance music making. The course is divided into three modules. The first module gives a general introduction to sound and presents the creative relationship between music and machine learning. The second module shows real problems in creative computing for music. The third module focuses on the connection between the society and creative computing at large. The classes are supported by labs based on state-of-the-art computational tools.
 
 
 %----------------------------------------------------------------------------------------
@@ -128,15 +128,15 @@
 {\color{myCOLOR} Required Texts}\\
 ("BEN") D. Benson, \textit{Music: a mathematical offering}, freely available on author's web page, 2007.\\
 ("BUR") A. Burkov, \textit{The Hundred-page machine learning book}, available at a very affordable price on \url{https://leanpub.com/theMLbook} (link to external site), 2019.\\
-("STR") G. Strang, \textit{Linear algebra and learning from data}, Wellesley Cambridge Press, 2019.\\
+% ("STR") G. Strang, \textit{Linear algebra and learning from data}, Wellesley Cambridge Press, 2019.\\
 
 {\color{myCOLOR} Recommended Texts}\\
 C. E. Cella, \textit{Creative computing for music and sound}, MIT Press, in preparation. \\
 A. G\'eron, \textit{Hands-on machine learning with Scikit-Learn \& TensorFlow}, O'Reilly, 2017.\\
-E. A. Lee, \textit{Plato and the nerd. The creative partnership of humans and technology}, MIT Press, 2017.\\
+E. A. Lee, \textit{The coevolution: the entwined futures of humans and machines}, MIT Press, 2017.\\
 
 {\color{myCOLOR} Other}\\
-Music 30 will use Python/Anaconda (\url{https://www.anaconda.com}, link to external site) and Cycling’74 Max (\url{http://cycling74.com/}, link to external site) programming environments extensively during the labs. The free audio editor Ocenaudio (\url{https://www.ocenaudio.com}, link to external site) will also be used during classes. Students must have access to a laptop computer with these software packages installed and must have headphones. Students may choose to purchase Max, or alternatively there are student authorization options. Any required journal/conference articles and all the source code for the labs will be provided on \emph{bCourses}. Relevant drafts of \emph{Creative computing for music and sound} will also be distributed during the labs. Lecture notes will be provided for each class.
+Music 30 will use Python/Anaconda (\url{https://www.anaconda.com}, link to external site) and Cycling’74 Max (\url{http://cycling74.com/}, link to external site) programming environments extensively during the labs. The free audio editor Ocenaudio (\url{https://www.ocenaudio.com}, link to external site) will also be used during classes. Students must have access to a laptop computer with these software packages installed and must have headphones. Students may choose to purchase Max, or alternatively there are student authorization options. Any required journal/conference articles and all the source code for the labs will be provided on \emph{bCourses}. Relevant drafts of \emph{Creative computing for music and sound} will also be distributed during the labs as lecture notes.
 
 %----------------------------------------------------------------------------------------
 %	 GRADING SCHEME
@@ -144,12 +144,12 @@ Music 30 will use Python/Anaconda (\url{https://www.anaconda.com}, link to exter
 \vspace{0.5cm}
 \section{Grading Scheme}
 
-20\% Assignments \\
-30\% Midterm Exam \\
-50\% Final Exam \\
+20\% Attendance and discussion participation \\
+30\% Lab assignments \\
+20\% Midterm Exam \\
+30\% Final Exam \\
 
-Grades will follow the standard scale: A = 89.5-100; B = 79.5-89.4; C = 69.5-79.4; D = 60-69.4; F  $<$60. Curving is at the discretion of the professor. 
-
+Grades will follow the standard scale: A+ (98 to 100), A ($<$98 to 94), A-($<$94 to 90), B+ ($<$90 to 87), B ($<$87 to 83), B-($<$83 to 80), C+ ($<$80 to 77), C ($<$77 to 73), C-($<$73 to 70), D+ ($<$70 to 67), D ($<$67 to 63), D-($<$63 to 60), F ($<$60 to 0). Curving is at the discretion of the professor. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                SECOND PAGE
@@ -160,6 +160,7 @@ Grades will follow the standard scale: A = 89.5-100; B = 79.5-89.4; C = 69.5-79.
 \makeSide % Print the FAQ sidebar; To get rid of, simply comment out and uncomment \makeFullPage
 
 % \makeFullPage
+
 
 \vspace{0.5cm}
 \section{Assignments, Exams and Make-up Policy}
@@ -197,6 +198,7 @@ If you are a student with learning needs that require special accommodation, con
 The University of California strives to prevent and respond to harassment and discrimination. Engaging in such behavior may result in removal from class or the University. If you are the subject of harassment or discrimination there are resources available to support you. Please contact the Confidential Care Advocate (\url{https://care.berkeley.edu}) for non-judgmental, caring assistance with options, rights and guidance through any process you may choose. Survivors of sexual violence may also want to view the following website: \url{https://svsh.berkeley.edu}.
 For more information about how the University responds to harassment and discrimination, please visit the Office for the Prevention of Harassment and Discrimination website: \url{https://ophd.berkeley.edu}.\\
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                COURSE SCHEDULE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -216,91 +218,97 @@ For more information about how the University responds to harassment and discrim
   \# & Topic & Readings \\ \hline 
 %%Alternatively, instead of Week #, you can do Class date for meeting
 Week 1 &
-Computational creativity is not \ldots creative: the four \emph{P}s of creativity & M. A. Boden, Computer models of creativity. AI Mag. 30:23, 2009 \\
+Creative computing is not \ldots creative: the four \emph{P}s of creativity & F. Carnovalini and A. Rod\`a, Computational Creativity and Music Generation Systems: An Introduction to the State of the Art. Front. Artif. Intell. 3:14, 2020  \\
 
-& & F. Carnovalini and A. Rod\`a, Computational Creativity and Music Generation Systems: An Introduction to the State of the Art. Front. Artif. Intell. 3:14, 2020  \\
+& & Suggested: M. A. Boden, Computer models of creativity. AI Mag. 30:23, 2009 \\
 
-& Creative artefacts vs assisted creation: dualities in modelling creativity for the arts&  R. L. De M\`antaras, Artificial Intelligence and the Arts: Toward Computational Creativity, in The Next Step: Exponential Life, 2017\\
-& &  Suggested: S. Colton, J. W. Charnley and A. Pease, Computational creativity theory: the FACE and IDEA descriptive models, in ICCC (Mexico City), 90–95, 2011 \\
+& Creative artefacts vs assisted creation: dualities in modelling creativity for the arts&  Lecture notes \\
+& & R. L. De M\`antaras, Artificial Intelligence and the Arts: Toward Computational Creativity, in The Next Step: Exponential Life, 2017\\
+% & &  Suggested: S. Colton, J. W. Charnley and A. Pease, Computational creativity theory: the FACE and IDEA descriptive models, in ICCC (Mexico City), 90–95, 2011 \\
 \arrayrulecolor{maingray}\hline
 
 Week 2 & Three introductory views on sound: physical, perceptual and cultural & [BEN, ch. 1.1-1.7]\\
 
 & Introduction to musical timbre and digital signals & [BEN, ch. 7.1-7.6, appendix M]\\
 \arrayrulecolor{maingray}\hline
-
-Week 3 & The five pillars of creative computing (I): projective spaces & [STR, I.1-I.3, I.6]\\
-
-& & suggested: C. E. Cella, A geometric interpretations of signals, available on www.carminecella.com, 2015\\
-
-& \emph{Lab (Python)}: transforming sounds and images with convolutional maps & suggested: C. E. Cella, On room impulse response measurements with sine sweeps, available on www.carminecella.com, 2017 \\
-& & \\ 
+\arrayrulecolor{maingray}\hline
+\arrayrulecolor{maingray}\hline
 \arrayrulecolor{maingray}\hline
 
-Week 4 & The five pillars of creative computing (II): probabilities & [STR, ch V.1-V.3, V.6] \\
+Week 3 & Music without data (I): making new sounds using frequency-based representations & Lecture notes\\
+
+& & Suggested: C. E. Cella, A geometric interpretations of signals, available on www.carminecella.com, 2015\\
+
+& \emph{Lab (Python)}: transforming sounds and images with convolutional maps & Suggested: C. E. Cella, On room impulse response measurements with sine sweeps, available on www.carminecella.com, 2017 \\
+\arrayrulecolor{maingray}\hline
+
+Week 4 & Music without data (II): making music using rules &  S. R. Holtzman, Using Generative Grammars for Music Composition, Computer Music Journal , Spring, 1981, Vol. 5, No. 1 (Spring), pp. 51-64, 1981\\
+% & & Suggested: F. Courtot, A constraint-based logic program for generating polyphonies, in Proceedings of the International Computer Music Conference, pp. 292–294, 1990 \\
+
+&  \emph{Lab (Python)}: L-systems for melodic generation and choral harmonisation&  S. Mason and M. Saffle, L-Systems, melodies and musical structure, Leonardo Music J. 4, 31–38, 1994 \\
+\arrayrulecolor{maingray}\hline
+\arrayrulecolor{maingray}\hline
+\arrayrulecolor{maingray}\hline
+\arrayrulecolor{maingray}\hline
+
+Week 5 & Music with data (I): making music using probabilities & Lecture notes \\
 
 & \emph{Lab (Python)}: Markov models for text and music generation & C. Bell, Algorithmic music composition using dynamic Markov chains and genetic algorithms, J. Comput. Sci. Coll. 27, 99–107, 2011\\
-& & J. D. Fern\'andez and F. Vico, AI methods in algorithmic composition: a comprehensive survey, J. Artif. Intell. Res. 48, 513–58, 2013 \\
+% & & J. D. Fern\'andez and F. Vico, AI methods in algorithmic composition: a comprehensive survey, J. Artif. Intell. Res. 48, 513–58, 2013 \\
 \arrayrulecolor{maingray}\hline
 
-Week 5 & The five pillars of creative computing (III): optimisation &  [STR, VI.1-VI.2, VI.4]\\
+Week 6 & Music with data (II): connecting sounds and music using optimisation &  Lecture notes\\
  
-& \emph{Lab (Max)}: computer-assisted orchestration with Orchidea & C. E. Cella, Orchidea: a comprehensive framework for target-based computer-assisted dynamic orchestration, Journal of New Music Research, under review, 2020 [sections 1, 2 (except 2.2.1), 4.1, 4.2, 4.10, 5]  \\
-& &  Suggested: A. Horner and D. E. Goldberg,“Genetic algorithms and computer-assisted  music composition, in ICMC, Vol. 91 (Ann Arbor, MI), 479–482, 1991 \\
+& \emph{Lab (Max)}: \emph{Orchidea} and computer-assisted orchestration & A. Horner and D. E. Goldberg, Genetic algorithms and computer-assisted  music composition, in ICMC, Vol. 91 (Ann Arbor, MI), 479–482, 1991 \\
+& & Suggested: C. E. Cella, Orchidea: a comprehensive framework for target-based computer-assisted dynamic orchestration, Journal of New Music Research, under review, 2020 [sections 1, 2 (except 2.2.1), 4.1, 4.2, 4.10, 5]  \\
 \arrayrulecolor{maingray}\hline
 
-Week 6 & The five pillars of creative computing (IV): unsupervised and supervised statistical learning & [BUR, ch. 1]\\
-& & [STR, VII.1-VII.2, VII.5]\\
-& &  Suggested: C. E. Cella, Logistic regression and artificial neural networks, available on www.carminecella.com, 2015 \\
+Week 6 & Music with data (III): making music and new sounds using neural networks & Lecture notes \\
+& & [BUR, ch. 1]\\
 
-& \emph{Lab (Python)}: classification of musical timbres & [BUR, ch. 2] \\
-
-& & Suggested: V. Lonstalen, C. E. Cella, Deep convolutional networks on the pitch spiral for musical instrument recognition, ISMIR, New York, USA, 2016\\
-
-\arrayrulecolor{maingray}\hline
-
-Week 7 & The five pillars of creative computing (V): logical rules and generative grammars &  S. R. Holtzman, Using Generative Grammars for Music Composition, Computer Music Journal , Spring, 1981, Vol. 5, No. 1 (Spring), pp. 51-64, 1981\\
-& & Suggested: F. Courtot, A constraint-based logic program for generating polyphonies, in Proceedings of the International Computer Music Conference, pp. 292–294, 1990 \\
-& & \\
-
-&  \emph{Lab (Python)}: L-systems for natural patterns and melodic generation &  S. Mason and M. Saffle, L-Systems, melodies and musical structure, Leonardo Music J. 4, 31–38, 1994 \\
+& \emph{Lab (Python)}: \emph{Magenta NSynth}, how machine learning tools can help artists create art and music & [BUR, ch. 2] \\
 \arrayrulecolor{maingray}\hline
 
  Week 8 & Review & Module 1 \\
  &EXAM &  MIDTERM \\
 & & \\ 
  \arrayrulecolor{myCOLOR}\hline
-\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 2: Transformations }}} \\
+\multicolumn{2}{l}{\textbf{\textcolor{myCOLOR}{\large MODULE 2: Problems }}} \\
 \hline
 
-Week 9 & Modelling time and timbre in music & Suggested: S. Dieleman, A.  van den Oord,  and K. Simonyan, The challenge of realistic music generation: modelling raw audio at scale, in Advances in Neural Information Processing Systems 31, eds S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett (Red Hook, NY: Curran Associates,
-Inc.), 7989–7999, 2018 \\
+Week 9 & The problem of time and timbre in music &  Lecture notes \\
 & &  Suggested: H. C. Crayencour, C. E. Cella, Learning, probability and logic: towards a unified approach for content-based Music Information Retrieval, Frontiers in Digital Humanities, April 2019 \\
+
+
+% & & Suggested: S. Dieleman, A.  van den Oord,  and K. Simonyan, The challenge of realistic music generation: modelling raw audio at scale, in Advances in Neural Information Processing Systems 31, eds S. Bengio, H. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett (Red Hook, NY: Curran Associates,
+% Inc.), 7989–7999, 2018 \\
 
 & \emph{Lab (Max and Python)}: granular synthesis and \emph{AudioGuide} & B. Hackbarth, N. Schnell and D. Schwarz, Audioguide: A Framework For Creative Exploration Of Concatenative Sound Synthesis, IRCAM research report, 2011. \\
 
 \arrayrulecolor{maingray}\hline
 
-Week 10 & Modelling musical style (I): projections & L. A. Hiller and L. M. Isaacson, Musical composition with a high-speed
-digital computer. J. Audio Eng. Soc. 6, 154–160, 1958 \\
-& & D. Cope, Recombinant music: using the computer to explore musical style, Computer 24, 22–28, 1991 \\
-& &  Suggested: G. A. Wiggins, Computer models of musical creativity: a review of computer models of musical creativity by David cope. Literary Linguist. Comput. 23, 109–116, 2007 \\
+Week 10 & The problem of musical style transfer (I): introduction & Lecture notes \\
+
+% & L. A. Hiller and L. M. Isaacson, Musical composition with a high-speed
+% digital computer. J. Audio Eng. Soc. 6, 154–160, 1958 \\
+% & & D. Cope, Recombinant music: using the computer to explore musical style, Computer 24, 22–28, 1991 \\
+% & &  Suggested: G. A. Wiggins, Computer models of musical creativity: a review of computer models of musical creativity by David cope. Literary Linguist. Comput. 23, 109–116, 2007 \\
 
 &   \emph{Lab (Max/MSP)}: spectral freeze and cross-synthesis, a prelude to musical style transfer & [BEN, 2.1-2.2, 2.13, 2.15, 2.18] \\
 \arrayrulecolor{maingray}\hline
 
-Week 11 & Modelling musical style (II): probabilities and unsupervised learning together & [BUR, ch. 9] \\
+Week 11 & The problem of musical style transfer (II): approaches based on probabilities and unsupervised methods & [BUR, ch. 9] \\
 
 & & Suggested: C. E. Cella, Sound-types: a new framework for symbolic sound analysis and synthesis, ICMC, Huddersfield, United Kingdom, 2011 \\
 
-&\emph{Lab (Python)}: sound-types, a further step towards musical style transfer & C. E. Cella and J.J. Burred, Advanced sound hybridizations by means of the theory of sound-types, ICMC, Perth, Australia, 2013 \\
+&\emph{Lab (Python)}: sound-types, a first step towards musical style transfer & Suggested: C. E. Cella and J.J. Burred, Advanced sound hybridizations by means of the theory of sound-types, ICMC, Perth, Australia, 2013 \\
 
 \arrayrulecolor{maingray}\hline
-Week 12 & Modelling musical style (III): supervised learning with deep neural networks &  [BUR, ch. 6] \\
-& &  L. Gabrielli, C. E. Cella, F. Vespertini, D. Droghini, E. Principi and S. Squartini, Deep Learning for Timbre Modification and Transfer: an Evaluation Study, AES 144th, Milan, 2018 \\
+Week 12 & The problem of musical style (III): approaches based on deep learning &  [BUR, ch. 6] \\
+% & &  L. Gabrielli, C. E. Cella, F. Vespertini, D. Droghini, E. Principi and S. Squartini, Deep Learning for Timbre Modification and Transfer: an Evaluation Study, AES 144th, Milan, 2018 \\
 & & Suggested: J. P. Briot, and F. Pachet, Deep learning for music generation: challenges and directions, Neural Comput. Appl. 32, 981–993, 2018 \\
 
-&\emph{ Lab (Python)}: an algorithm for universal musical style transfer &   Noam Mor, Lior Wolf, Adam Polyak, Yaniv Taigman, A universal music translation network, ICLR, 2019 \\
+&\emph{Lab (Python)}: an algorithm for universal musical style transfer &  Suggested: Noam Mor, Lior Wolf, Adam Polyak, Yaniv Taigman, A universal music translation network, ICLR, 2019 \\
 & & \\ 
 
 \arrayrulecolor{myCOLOR}\hline
@@ -308,8 +316,9 @@ Week 12 & Modelling musical style (III): supervised learning with deep neural ne
 \hline
 \arrayrulecolor{maingray}\hline
 
-Week 13 & Extending the techniques to other arts: image style transfer & Suggested: xL. A. Gatys, A. S. Ecker, M. Bethge, Image Style Transfer Using Convolutional Neural Networks, CVPR, 2016 \\ 
-&Evaluation of creative outcomes & C. Ariza, The Interrogator as Critic: The Turing Test and the Evaluation of Generative Music Systems, Computer Music Journal 33:2, 48-70, 2009  \\
+Week 13 & Extending the techniques to other arts: image style transfer & Lecture notes \\
+& & Suggested: L. A. Gatys, A. S. Ecker, M. Bethge, Image Style Transfer Using Convolutional Neural Networks, CVPR, 2016 \\ 
+&Accountability: how to evaluate creative outcomes & C. Ariza, The Interrogator as Critic: The Turing Test and the Evaluation of Generative Music Systems, Computer Music Journal 33:2, 48-70, 2009  \\
 & & S. Colton, Creativity versus the perception of creativity in computational systems, in AAAI Spring Symposium: Creative Intelligent Systems Vol. 8 (Palo Alto, CA), 7, 2008 \\
 & & Suggested: A. Jordanous, A standardised procedure for evaluating creative systems:
 computational creativity evaluation based on what it is to be creative. Cogn. Comput. 4, 246–279, 2012 \\
@@ -318,7 +327,7 @@ computational creativity evaluation based on what it is to be creative. Cogn. Co
 Week 14 & On the aesthetics of computational creativity & P. Galanter, Computational aesthetic evaluation: past and future, in Computers and Creativity, eds J. McCormack and M. d’Inverno (Berlin; Heidelberg: Springer), 255–29, 2012  \\
 
 & Social impact of assisted creation & D. K. Simonton, Creativity: cognitive, personal, developmental, and social aspects. Am. Psychol. 55:15, 2000 \\
-& & M. I. Stein, Creativity and culture. J. Psychol. 36, 311–322, 1953 \\
+& & Suggested: M. I. Stein, Creativity and culture. J. Psychol. 36, 311–322, 1953 \\
 \arrayrulecolor{maingray}\hline
 
 Week 15 & Review & Modules 2 and 3\\
@@ -332,14 +341,14 @@ Week 15 & Review & Modules 2 and 3\\
 \end{center}
 
 
-\vspace{0.5cm}
-\section{The five pillars of creative computing}
+% \vspace{0.5cm}
+% \section{The five pillars of creative computing}
 
-\begin{center}
-  \includegraphics[scale=.5]{creative_pillars.png}  
-\end{center}
+% \begin{center}
+%   \includegraphics[scale=.5]{creative_pillars.png}  
+% \end{center}
 
-
+% \newpage
 \vspace{0.5cm}
 \section{Emergency procedures (McEnerney Hall)}
 
