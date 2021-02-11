@@ -1,4 +1,4 @@
-# Music 30 - Machine creativity for music and the arts
+# Music 30 - Creative computing and music making
 
 Preliminary materials - do not distribute.
 
