@@ -1,6 +1,10 @@
 import collections
 import numpy as np
 
+NPREF = 2
+NONWORD = "\n"
+MAXGEN = 200
+
 class Prefix:
     
     def __init__(self, n, string):
